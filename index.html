@@ -20,6 +20,13 @@
       img {
         display: inline-block;
       }
+
+      /* tailwind  */
+      @layer base {
+        [hidden]:where(:not([hidden='until-found'])) {
+          display: block !important;
+        }
+      }
     </style>
   </head>
   <body>
@@ -124,8 +131,8 @@
 
           <section>
             <img
-              class="h-[80%] w-[80%]"
-              src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.crownmediadev.com%2Fef%2F06%2Fb08afbed49849a31c89984c465b3%2Fhi-07-color-photo.jpg&sp=1765447954T5ee99bfb0730f0181f915f8de5dcc27b20c2143189c6c25b1dc380b39974eb57"
+              class="h-[80%]"
+              src="https://i.pinimg.com/736x/c9/d2/35/c9d23538780c6ab2e57fe447c37aff28.jpg"
             />
 
             <aside class="notes">
